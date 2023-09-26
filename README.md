@@ -9,7 +9,7 @@ It uses the [PySwip](https://github.com/yuce/pyswip) package to integrate the Pr
 
 ### Installation
 This application requires MiniHack for the environment definition; it can be easily installed via [pypi](https://pypi.org/project/minihack/):
-```
+```bash
 $ pip install minihack
 ```
 
@@ -17,7 +17,7 @@ For the reasoning process, it needs [SWI-Prolog](https://www.swi-prolog.org/) an
 
 ### Trying it out
 
-```
+```bash
 $ python main.py -h
 usage: main.py [-h] [--width WIDTH] [--height HEIGHT] [--monster MONSTER] [--weapon WEAPON]
                [--trap TRAP] [--path_to_kb PATH_TO_KB] [--num_episodes NUM_EPISODES]
